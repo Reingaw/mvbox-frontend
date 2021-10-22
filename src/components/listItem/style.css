@@ -1,0 +1,13 @@
+.list-item {
+    display: flex;
+    align-items: center;
+
+    height: 40px;
+    width: 100%;
+    background-color: #FFF;
+
+    padding-inline: 30px;
+    margin-block: 10px;
+
+    box-shadow: 2px 3px 3px 1px rgba(0, 0, 0, .5);
+}

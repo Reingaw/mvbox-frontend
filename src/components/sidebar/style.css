@@ -1,0 +1,49 @@
+.sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+
+    height: 100vh;
+    width: 25%;
+    background-color: var(--primary-color);
+
+    padding-inline: 10px;
+}
+
+.sidebar-title {
+    text-align: center;
+    color: #FFF;
+
+    position: absolute;
+    top: 10px;
+
+    align-self: center;
+
+    font-weight: 600;
+    font-size: 45px;
+}
+
+input, #submitButton {
+    width: 100%;
+    padding: 15px;
+
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+    margin-block: 10px;
+
+    box-shadow: 1px 3px 3px 1px #000 ;
+}
+
+#submitButton {
+    background-color: var(--secondary-color);
+    font-weight: 700;
+    transition: filter .3s;
+}
+
+#submitButton:hover {
+    filter: brightness(.8);
+}
